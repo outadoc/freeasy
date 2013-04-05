@@ -1,0 +1,13 @@
+{
+   "manifest_version": 2,
+   "content_scripts": [{
+      "js": ["jquery-1.9.1.min.js", "inject.js"],
+      "matches": ["http://*.proxfree.com/*"]
+   }],
+   "description": "Better player for the ProxFree service.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "name": "Freeasy",
+   "version": "1.0"
+}
